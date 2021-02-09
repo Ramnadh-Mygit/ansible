@@ -1,0 +1,6 @@
+---
+- name: check the status
+  service:
+    name: mysql
+    state: status
+  become: true
