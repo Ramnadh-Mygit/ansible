@@ -1,0 +1,5 @@
+---
+ - include: status.yml
+ - include: start.yml
+ - include: stop.yml
+ - include: restart.yml
